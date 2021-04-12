@@ -29,6 +29,8 @@ then, the score of the board will tend to be some positive value. If the minimiz
 hand in that board state then it will tend to be some negative value. The values of the board are 
 calculated by some heuristics which are unique for every type of game.
 
+[]!(Result.gif)
+
 There are 5 modules in our program, They are:
       
       1. Move generation and Board visualization.
