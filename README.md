@@ -30,9 +30,10 @@ hand in that board state then it will tend to be some negative value. The values
 calculated by some heuristics which are unique for every type of game.
 
 There are 5 modules in our program, They are:
- Move generation and Board visualization.
- Position evaluation
- Search Tree using Minimax
- Alpha-Beta pruning
+      
+      ➔ Move generation and Board visualization.
+      ➔ Position evaluation
+      ➔ Search Tree using Minimax
+      ➔ Alpha-Beta pruning
 
 
