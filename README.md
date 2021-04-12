@@ -5,7 +5,7 @@ The approach is more efficient as compared to brute force method of building the
 game . This game is executed on a web brower (https://jsfiddle.net/q76uzxwe/1/) using JavaScript programming 
 language and JSON .
 
-**Alpha–beta pruning** is a search algorithm that seeks to decrease the number of nodes that are 
+**➔ Alpha–beta pruning** is a search algorithm that seeks to decrease the number of nodes that are 
 evaluated by the minimax algorithm in its search tree. It is an adversarial search algorithm used 
 commonly for machine playing of two-player games (Tic-tac-toe, Chess, Go, etc.). It stops 
 evaluating a move when at least one possibility has been found that proves the move to be worse 
@@ -13,7 +13,7 @@ than a previously examined move. Such moves need not be evaluated further. When 
 standard minimax tree, it returns the same move as minimax would, but prunes away branches
 that cannot possibly influence the final decision.
 
-**Minimax** is a recursive algorithm which is used to choose an optimal move for a player assuming that the other player is also playing optimally. It is used in games such as tic-tactoe, go, chess , checkers, and many other two-player games. Such games are called games of perfect information because it is possible to see all the possible moves of a particular game.
+**➔ Minimax** is a recursive algorithm which is used to choose an optimal move for a player assuming that the other player is also playing optimally. It is used in games such as tic-tactoe, go, chess , checkers, and many other two-player games. Such games are called games of perfect information because it is possible to see all the possible moves of a particular game.
 
 **Minimax** is a kind of backtracking algorithm that is used in decision making and game theory to 
 find the optimal move for a player, assuming that your opponent also plays optimally. It is 
@@ -31,9 +31,17 @@ calculated by some heuristics which are unique for every type of game.
 
 There are 5 modules in our program, They are:
       
-      ➔ Move generation and Board visualization.
-      ➔ Position evaluation
-      ➔ Search Tree using Minimax
-      ➔ Alpha-Beta pruning
+      1. Move generation and Board visualization.
+      2. Position evaluation
+      3. Search Tree using Minimax
+      4. Alpha-Beta pruning
+      5. Improved evaluation function
+  
+
+
+
+
+  
+      
 
 
